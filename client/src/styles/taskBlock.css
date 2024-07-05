@@ -1,0 +1,54 @@
+.task {
+    width: 100%;
+    height: 4.5rem;
+    margin: 1.5rem 0 1.5rem 0;
+    background-color: #eaefef;
+    cursor: pointer;
+}
+
+.task div {
+    display: inline-block;
+    height: 4.5rem;
+    line-height: 4.5rem;
+    overflow: hidden;
+}
+
+.task .code {
+    width: 10%;
+    color: #f3f8f9;
+    font-size: 2.4rem;
+    font-weight: 500;
+    text-align: center;
+    justify-content: center;
+}
+
+.task .text {
+    width: 45.5%;
+    padding: 0 1% 0 1%;
+    font-size: 2rem;
+}
+
+.task .total {
+    width: 6%;
+    margin: 0 0.5% 0 0.5%;
+    background-color: #d2d5d5;
+    font-size: 2rem;
+    font-weight: 500;
+    text-align: center;
+}
+
+.task .cell {
+    width: 6%;
+    margin: 0 0.5% 0 0.5%;
+    background-color: #dbdfe1;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.task .empty-cell {
+    width: 6%;
+    margin: 0 0.5% 0 0.5%;
+    background-color: #eaefef;
+    font-size: 2rem;
+    text-align: center;
+}

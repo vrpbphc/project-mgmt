@@ -1,0 +1,18 @@
+.comment-form {
+    width: 100%;
+    margin: 0 0 2em 0;
+}
+
+.comment-form .textbox, .comment-form button {
+    margin: 0 0.5% 0 0.5%;
+    box-sizing: border-box;
+    display: inline-block;
+}
+
+.comment-form .textbox {
+    width: 89%;
+}
+
+.comment-form button {
+    width: 9%;
+}

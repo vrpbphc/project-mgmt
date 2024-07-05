@@ -1,0 +1,25 @@
+.project-form {
+    width: 100%;
+}
+
+.project-form .textbox, .project-form button {
+    margin: 0 0.5% 0 0.5%;
+    box-sizing: border-box;
+    display: inline-block;
+}
+
+.project-form .code {
+    width: 19%;
+}
+
+.project-form .name {
+    width: 49%;
+}
+
+.project-form .color {
+    width: 19%;
+}
+
+.project-form button {
+    width: 9%;
+}

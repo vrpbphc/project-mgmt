@@ -1,0 +1,34 @@
+.card {
+	width: 20vw;
+	min-width: 35rem;
+	padding: 3rem 2rem 2rem 2rem;
+	margin: 20vh auto 0 auto;
+	background-color: #f3f8f9;
+	font-size: 2rem;
+	text-align: center;
+}
+
+.card .logo {
+	margin: 1rem 0 0 0;
+	font-size: 4.8rem;
+	font-weight: 600;
+}
+
+.card .tagline {
+	margin: 0 0 1rem 0;
+	font-size: 2.4rem;
+	font-weight: 450;
+}
+
+.card .textbox {
+	margin: 3rem auto 3rem auto;
+	text-align: center;
+}
+
+.card button {
+	margin: 0 auto 0 auto;
+}
+
+.card .link {
+	margin: 2rem auto 2rem auto;
+}

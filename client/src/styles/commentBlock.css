@@ -1,0 +1,15 @@
+.comment {
+    width: 100%;
+    display: inline;
+}
+
+.comment .info {
+    margin: 2em 0 0.5em 0;
+    color: #626769;
+    font-size: 1.8rem;
+}
+
+.comment .text {
+    margin: 0.5em 0 1em 0;
+    font-size: 2.2rem;
+}

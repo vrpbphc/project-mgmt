@@ -1,0 +1,21 @@
+.task-form {
+    width: 100%;
+}
+
+.task-form .textbox, .task-form select, .task-form button {
+    margin: 0 0.5% 0 0.5%;
+    box-sizing: border-box;
+    display: inline-block;
+}
+
+.task-form .textbox {
+    width: 69%;
+}
+
+.task-form select {
+    width: 19%;
+}
+
+.task-form button {
+    width: 9%;
+}

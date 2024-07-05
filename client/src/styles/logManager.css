@@ -1,0 +1,18 @@
+.log-form {
+    width: 100%;
+    margin: 0 0 2em 0;
+}
+
+.log-form .textbox, .log-form button {
+    margin: 0 0.5% 0 0.5%;
+    box-sizing: border-box;
+    display: inline-block;
+}
+
+.log-form .textbox {
+    width: 89%;
+}
+
+.log-form button {
+    width: 9%;
+}

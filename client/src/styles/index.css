@@ -1,0 +1,106 @@
+@font-face {
+	font-family: regular;
+	src: url("../fonts/regular.ttf");
+}
+
+@font-face {
+	font-family: italic;
+	src: url("../fonts/italic.ttf");
+}
+
+html {
+	font-family: regular;
+	font-size: 62.5%;
+}
+
+body {
+	margin: 0;
+	color: #121314;
+}
+
+h1 {
+	font-size: 3.2rem;
+	font-weight: 500;
+}
+
+h2 {
+	font-size: 2.8rem;
+	font-weight: 500;
+}
+
+.container {
+	width: 70vw;
+	min-width: 100rem;
+	margin: 8rem auto 4rem auto;
+}
+
+.textbox {
+	width: 25rem;
+	padding: 1rem 1.5rem 1rem 1.5rem;
+	border: none;
+	border-bottom: 0.2rem solid #121314;
+	background-color: #dee4e3;
+	font-family: regular;
+	font-size: 2rem;
+	outline: none;
+	display: block;
+}
+
+::placeholder {
+	color: #55595B;
+	font-family: regular;
+}
+
+button {
+	padding: 1rem 1.5rem 1rem 1.5rem;
+	border: none;
+	background-color: #2e93a1;
+	color: #f3f8f9;
+	font-family: regular;
+	font-size: 2rem;
+	outline: none;
+	display: block;
+	cursor: pointer;
+	transition: background-color 0.3s;
+}
+
+button:hover {
+	background-color: #247681;
+}
+
+button:active {
+	background-color: #1d6069;
+}
+
+.link {
+	color: #2e93a1;
+	display: block;
+	cursor: pointer;
+	text-decoration: none;
+	transition: color 0.3s;
+}
+
+.link.bold {
+	font-size: 2rem;
+	font-weight: 500;
+}
+
+.link:hover {
+	color: #247681;
+}
+
+.link:active {
+	color: #1d6069;
+}
+
+select {
+	padding: 1rem;
+	border: none;
+	border-bottom: 0.2rem solid #121314;
+	background-color: #dee4e3;
+	font-size: 2rem;
+}
+
+hr {
+	margin: 2rem 0 2rem 0;
+}
